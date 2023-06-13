@@ -3,13 +3,13 @@
     "profileAssociations": {
         "workspaces": {
             "file:///home/zoro/Zoro/Python": "__default__profile__",
-            "file:///home/zoro/Zoro/Java-Dsa": "__default__profile__",
             "file:///home/zoro/Zoro/Javascript": "__default__profile__",
             "file:///home/zoro/.config/bspwm": "__default__profile__",
-            "file:///home/zoro/.config/polybar": "__default__profile__"
+            "file:///home/zoro/.config/polybar": "__default__profile__",
+            "file:///home/zoro/Zoro/Java-Dsa": "__default__profile__"
         },
         "emptyWindows": {
-            "1686644250853": "__default__profile__"
+            "1686661052433": "__default__profile__"
         }
     },
     "profileAssociationsMigration": true,
@@ -23,7 +23,7 @@
         ],
         "emptyWindows": [
             {
-                "backupFolder": "1686644250853"
+                "backupFolder": "1686661052433"
             }
         ]
     },
@@ -75,6 +75,17 @@
                                     "id": "openRecentFolder",
                                     "uri": {
                                         "$mid": 1,
+                                        "external": "file:///home/zoro/Zoro/Java-Dsa",
+                                        "path": "/home/zoro/Zoro/Java-Dsa",
+                                        "scheme": "file"
+                                    },
+                                    "enabled": true,
+                                    "label": "~/Zoro/Java-Dsa"
+                                },
+                                {
+                                    "id": "openRecentFolder",
+                                    "uri": {
+                                        "$mid": 1,
                                         "external": "file:///home/zoro/.config/polybar",
                                         "path": "/home/zoro/.config/polybar",
                                         "scheme": "file"
@@ -108,17 +119,6 @@
                                     "id": "openRecentFolder",
                                     "uri": {
                                         "$mid": 1,
-                                        "external": "file:///home/zoro/Zoro/Java-Dsa",
-                                        "path": "/home/zoro/Zoro/Java-Dsa",
-                                        "scheme": "file"
-                                    },
-                                    "enabled": true,
-                                    "label": "~/Zoro/Java-Dsa"
-                                },
-                                {
-                                    "id": "openRecentFolder",
-                                    "uri": {
-                                        "$mid": 1,
                                         "external": "file:///home/zoro/Zoro/Python",
                                         "path": "/home/zoro/Zoro/Python",
                                         "scheme": "file"
@@ -128,6 +128,17 @@
                                 },
                                 {
                                     "id": "vscode.menubar.separator"
+                                },
+                                {
+                                    "id": "openRecentFile",
+                                    "uri": {
+                                        "$mid": 1,
+                                        "external": "file:///home/zoro/.config/polybar/config.ini",
+                                        "path": "/home/zoro/.config/polybar/config.ini",
+                                        "scheme": "file"
+                                    },
+                                    "enabled": true,
+                                    "label": "~/.config/polybar/config.ini"
                                 },
                                 {
                                     "id": "openRecentFile",
@@ -150,17 +161,6 @@
                                     },
                                     "enabled": true,
                                     "label": "~/.config/sxhkd/sxhkdrc"
-                                },
-                                {
-                                    "id": "openRecentFile",
-                                    "uri": {
-                                        "$mid": 1,
-                                        "external": "file:///home/zoro/.config/polybar/config.ini",
-                                        "path": "/home/zoro/.config/polybar/config.ini",
-                                        "scheme": "file"
-                                    },
-                                    "enabled": true,
-                                    "label": "~/.config/polybar/config.ini"
                                 },
                                 {
                                     "id": "vscode.menubar.separator"
@@ -199,13 +199,11 @@
                     },
                     {
                         "id": "workbench.action.files.save",
-                        "label": "&&Save",
-                        "enabled": false
+                        "label": "&&Save"
                     },
                     {
                         "id": "workbench.action.files.saveAs",
-                        "label": "Save &&As...",
-                        "enabled": false
+                        "label": "Save &&As..."
                     },
                     {
                         "id": "saveAll",
@@ -340,13 +338,11 @@
                     },
                     {
                         "id": "workbench.action.files.revert",
-                        "label": "Re&&vert File",
-                        "enabled": false
+                        "label": "Re&&vert File"
                     },
                     {
                         "id": "workbench.action.closeActiveEditor",
-                        "label": "&&Close Editor",
-                        "enabled": false
+                        "label": "&&Close Editor"
                     },
                     {
                         "id": "workbench.action.closeWindow",
@@ -391,13 +387,11 @@
                     },
                     {
                         "id": "actions.find",
-                        "label": "&&Find",
-                        "enabled": false
+                        "label": "&&Find"
                     },
                     {
                         "id": "editor.action.startFindReplaceAction",
-                        "label": "&&Replace",
-                        "enabled": false
+                        "label": "&&Replace"
                     },
                     {
                         "id": "vscode.menubar.separator"
@@ -777,8 +771,7 @@
                     },
                     {
                         "id": "editor.action.toggleWordWrap",
-                        "label": "&&Word Wrap",
-                        "enabled": false
+                        "label": "&&Word Wrap"
                     },
                     {
                         "id": "editor.action.toggleStickyScroll",
@@ -790,8 +783,7 @@
                 "items": [
                     {
                         "id": "workbench.action.navigateBack",
-                        "label": "&&Back",
-                        "enabled": false
+                        "label": "&&Back"
                     },
                     {
                         "id": "workbench.action.navigateForward",
@@ -800,8 +792,7 @@
                     },
                     {
                         "id": "workbench.action.navigateToLastEditLocation",
-                        "label": "&&Last Edit Location",
-                        "enabled": false
+                        "label": "&&Last Edit Location"
                     },
                     {
                         "id": "vscode.menubar.separator"
@@ -1700,13 +1691,13 @@
     },
     "windowsState": {
         "lastActiveWindow": {
-            "backupPath": "/home/zoro/.config/Code - OSS/Backups/1686644250853",
+            "backupPath": "/home/zoro/.config/Code - OSS/Backups/1686661052433",
             "uiState": {
                 "mode": 1,
-                "x": 1930,
-                "y": 10,
-                "width": 1900,
-                "height": 1060
+                "x": 1004,
+                "y": 49,
+                "width": 906,
+                "height": 1021
             }
         },
         "openedWindows": []
